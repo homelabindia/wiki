@@ -1,5 +1,8 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: Homelab India
+site_url: https://homelabwiki-bii3j.ondigitalocean.app
+repo_url: https://github.com/navaneeth-dev/wiki
+repo_name: navaneeth-dev/wiki
 markdown_extensions:
   - attr_list
   - md_in_html
@@ -9,6 +12,10 @@ markdown_extensions:
   - pymdownx.superfences
 plugins:
   - glightbox
+  - search
+  - social
+  - git-revision-date-localized:
+      enable_creation_date: true
 theme:
   name: material
   features:
