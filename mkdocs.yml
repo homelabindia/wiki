@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: Homelab India
 site_url: https://homelabwiki-bii3j.ondigitalocean.app
-repo_url: https://github.com/navaneeth-dev/wiki
-repo_name: navaneeth-dev/wiki
+repo_url: https://github.com/homelabindia/wiki
+repo_name: homelabindia/wiki
 markdown_extensions:
   - attr_list
   - md_in_html
