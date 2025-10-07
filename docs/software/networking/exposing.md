@@ -37,8 +37,22 @@ This should work with almost any ISP in India.
 
 ## Proxying
 
+Supports: TODO
+
 - Cloudflare Tunnels
 - Pangolin
 
+Pros:
+
+Cons:
+
 ## Commercial VPNs
 
+Supports: TODO
+
+VPNs like ZeroTier, TailScale come into this category, it uses UDP hole punching to achieve direct p2p connection via an intermediate server. If that fails it uses its relay server.
+This is often the best method to access administrative tools because its secure and not exposed to the Internet directly.
+
+Pros:
+
+Cons:

@@ -1,4 +1,4 @@
-# Multiple /64
+# Multiple IPv6 /64 Prefixs
 
 In India it is currently not possible to get larger than a /64 IPv6 prefix from major ISPs. As an alternative you can request multiple /64s via DHCPv6 and use it in different VLANs.
 
