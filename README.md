@@ -1,5 +1,4 @@
-<h1 align="center">Homelab India Wiki</h1>
-<a align="center" href="https://wiki.homelabindia.org">wiki.homelabindia.org</a>
+<h1 align="center"><a href="https://wiki.homelabindia.org">Homelab India Wiki</a></h1>
 
 ## Contributing
 
@@ -22,4 +21,5 @@ previewed at `localhost:8000`. Images are stored inside `docs/assets/images/`.
 
 
 After finishing your changes please create a PR.
+
 
