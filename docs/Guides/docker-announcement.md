@@ -1,5 +1,5 @@
 
-Yes, we have docker announcements now and anyone in the community can request any docker to watch for. The project we are using for this is **FeedCord**. FeedCord used "appsettings.json file for its configuration. all the code is available in our official github repository. Direct link [here](https://github.com/homelabindia/webapps/blob/main/feedcord/appsettings.json).
+Yes, we have docker announcements now and anyone in the community can request any docker to watch for. The project we are using for this is **FeedCord**. FeedCord used ```appsettings.json``` file for its configuration. All the code is available in our official github repository. Direct link [here](https://github.com/homelabindia/webapps/blob/main/feedcord/appsettings.json).
 
 ---
 
