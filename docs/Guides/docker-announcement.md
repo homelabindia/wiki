@@ -46,3 +46,7 @@ Explanation of the Components:
 3. ```<repository>```: Replace this with the name of the repository. For example, "immich" for the Immich repository.
 4. ```/releases.atom```: This is the crucial part that specifies you want the Atom feed for the releases section of the repository.
 
+Example:
+
+For immich repository the RSS feed url would look like ```https://github.com/immich-app/immich/releases.atom```.
+
