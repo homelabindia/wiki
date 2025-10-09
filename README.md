@@ -16,5 +16,9 @@ uv run mkdocs serve
 
 ### Writing Docs
 
-Change any `.md` file inside `docs` to contribute. See local changes at
-`localhost:8000`. Images are stored inside `docs/assets/images/`.
+Change any `.md` file inside `docs` to contribute, your local changes can be
+previewed at `localhost:8000`. Images are stored inside `docs/assets/images/`.
+
+
+After finishing your changes please create a PR.
+
