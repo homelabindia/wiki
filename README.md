@@ -1,4 +1,5 @@
-<h3 align="center">Homelab India Wiki</h3>
+<h1 align="center">Homelab India Wiki</h1>
+<a align="center" href="https://wiki.homelabindia.org">wiki.homelabindia.org</a>
 
 ## Contributing
 
