@@ -5,34 +5,34 @@
 Pros:
 
 - Faster updates because of more mirrors in India
-- More upto date packages and kernel than Debian
-- Good documentation and support.
+- More up-to-date packages and kernel than Debian
+- Good documentation and support
+- LTS versions have longer support than Debian's support cycle
 
 Cons:
 
-- Can have some bloatware like snap.
-- CAN cause breaking changes in RARE cases because of kernel updates
-
+- Can have some bloatware, such as snap
+- Can cause breaking changes in RARE cases because of kernel updates
+ 
 ## Debian
 
 Pros:
 
-- VERY stable
-- Good documentation and support.
+- Very stable
+- Good documentation and support
 
 Cons:
 
 - Packages are usually 2 years old
-
+ 
 ## Flatcar / CoreOS
 
 Flatcar is a Free and Open Source Operating System sponsored and developed by Microsoft which is designed to run
 containers.
 
-It is a declarative operating system, meaning it does not have a package manager and EVERYTHING should run in containers.
+It is a declarative operating system, meaning it does not have a package manager and everything should run in containers.
 
-The OS is treated as cattle not pets meaning we keep destroying the VM and recreating it. There is no chance of configuration drift.
-
+The OS is treated as cattle not pets, meaning you keep destroying the VM and recreating it. There is no chance of configuration drift.
 Data should be stored in a separate disk.
 
 Pros:
@@ -40,8 +40,8 @@ Pros:
 - Infrastructure as Code and configs can be stored in GitHub
 - Sharing issues with people online is as simple as giving your config link
 - OS & Containers are auto updated
-- Deploy and forget, i.e low maintenance
-- Secure by default because of lesser binaries on the system and SELinux available
+- Deploy and forget, i.e. low maintenance
+- Secure by default because of fewer binaries on the system and SELinux available
 
 Cons:
 
@@ -56,11 +56,11 @@ Lightweight, immutable Kubernetes distribution.
 Pros:
 
 - API driven config and update
-- VERY fast and easy upgrades.
+- Very fast and easy upgrades
 - Large community
 - High security.
 
 Cons:
 
-- No official way to store Talos Configs in GitHub.
-- Highest learning curve.
+- No official way to store Talos Configs in GitHub
+- Highest learning curve of the options listed
