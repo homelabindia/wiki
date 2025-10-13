@@ -1,18 +1,15 @@
 # How to expose your Home Lab to the Internet
 
+This guide was written for popular ISPs in India not local ISPs. If you are using a local ISP try speaking to the
+tech team, they might be able to customize to your requirements.
+
+
 !!! info
     Decide what you want to expose first. If your use case is just HTTP or remote access any of the following methods could work for you. This guide was written with the following services in mind:
 
-    - HTTP/s
     - TCP/UDP
     - Torrenting (i.e being connectable with your torrent tracker aka port forwarding)
-    - Public Access (i.e without installing software on client machines)
-
-1. Static IP
-2. IPv6
-3. Cloudflare Tunnels
-4. Selfhosted VPNs
-4. Commercial VPNs (TailScale, ZeroTier)
+    - Public Access Website (i.e without installing software on client machines)
 
 ---
 
@@ -36,7 +33,7 @@ Cons:
 
 ## IPv6
 
-Supports: HTTP/s, TCP/UDP, Public Access
+Supports: HTTP/s, TCP/UDP, Public Access Website
 
 This should work with almost any ISP in India but you need to configure DDNS which could result in a **downtime** of 5mins
 when the IP prefix changes.
@@ -53,8 +50,9 @@ Pros:
 
 Cons:
 
+- DNS propogation time.
 - Clients NEED to support IPv6. Many businesses, schools and colleges DO NOT have IPv6.
-- DDNS downtime of 5mins when IP prefix changes.
+- Downtime of 5mins when IP prefix changes. OpenWRT DDNS supports only 5mins DNS updates.
 
 ## Cloudflare Tunnels
 
@@ -110,3 +108,8 @@ Cons:
 
 - Speeds could be unreliable sometimes due to UDP hole punching.
 - Will always get slower speeds than WireGuard hosted on a Static IP.
+
+## Dynamic Public IPv4
+
+Rare in India but if your router gets a public IP, you can just use DDNS. Of course this has the same 5mins DNS update
+time disadvantage of IPv6 DDNS.
