@@ -21,3 +21,9 @@ Used SFF, USFF pcs.
 Search your local facebook marketplace, always buy from people who are selling multiple pcs in the picture. Always visit the shop before buying.
 
 Verified By: Many
+
+## Techenclave
+
+Reputed used marketplace
+
+Verified By: Many
