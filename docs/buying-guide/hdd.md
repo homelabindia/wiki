@@ -15,16 +15,12 @@ Verified By: _saffu07
 ![HDD Picture 2](../assets/images/hdd2.webp)
 ![HDD Picture 3](../assets/images/hdd2.webp)
 
-## Aasimenator
-
-[Forum Link](https://techenclave.com/t/large-capacity-hdds-6tb-20tb/266743/1)
-
-Verified By: Many people
-
 ## Amazon.com
 
 Buy from Amazon.com external HDDs and shuck them. Some drives can be imported from USA to India. This way you can get new
 high capacity drive for cheap.
+
+Verified By: Pradeep
 
 ## Facebook Marketplace
 
