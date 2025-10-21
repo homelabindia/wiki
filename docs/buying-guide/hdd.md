@@ -13,7 +13,7 @@ Verified By: _saffu07
 
 ![HDD Picture](../assets/images/hdd1.webp)
 ![HDD Picture 2](../assets/images/hdd2.webp)
-![HDD Picture 3](../assets/images/hdd2.webp)
+![HDD Picture 3](../assets/images/hdd3.webp)
 
 ## Amazon.com
 
