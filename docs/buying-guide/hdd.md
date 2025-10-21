@@ -28,3 +28,8 @@ Search your local facebook marketplace, always buy from people who are selling m
 
 Verified By: None
 
+## Limited Time Deals
+
+Diwali sometimes have deals for HDDs, watch techenclave or keep browsing Amazon.in
+for deals.
+
