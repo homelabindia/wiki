@@ -15,15 +15,16 @@ Verified By: _saffu07
 ![HDD Picture 2](../assets/images/hdd2.webp)
 ![HDD Picture 3](../assets/images/hdd3.webp)
 
-## Amazon.com
+## Amazon.com (US)
 
 Buy from Amazon.com external HDDs and shuck them. Some drives can be imported from USA to India. This way you can get new
 high capacity drive for cheap.
 
-Verified By: Pradeep
+Verified By: Pradeep S
 
 ## Facebook Marketplace
 
 Search your local facebook marketplace, always buy from people who are selling multiple hard disks. Always visit the shop before buying, try to ask for S.M.A.R.T screenshot.
 
 Verified By: None
+
