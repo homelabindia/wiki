@@ -8,6 +8,14 @@ Used SFF, USFF pcs.
 
 Verified By: Many
 
+## FortiCore
+
+New N100, N150, Mini ITX Motherboards. 2.5G, 10G.
+
+[Product List](https://www.reddit.com/user/FortiCore/comments/1nj9jix/intel_n100_n150_mini_pcs_itx_motherboards_for_nas/)
+
+Verified By: Techenclave, YouTube Videos.
+
 ## New Lenovo PCs
 
 Lenovo's pricing is always lower than DELL, HP, etc. If you JUST want a new pc with warranty, you can buy directly from Lenovo's website and you get additional bank offers with student discount at certain times.

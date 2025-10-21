@@ -19,3 +19,4 @@ Upgrading SFF pcs are also a lot easier and don't take up much space.
 For most usecases 2GB Ram and a dual core CPU will do.
 
 Refer to [Mini PC Buying Guide](minipc.md).
+
