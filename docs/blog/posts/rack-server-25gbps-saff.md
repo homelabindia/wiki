@@ -22,6 +22,8 @@ Mellanox dual port 25Gig card with 1 SFP will come for 5K extra
 
 <!-- more -->
 
+## Pictures
+
 ![Picture 1](../../assets/images/fujitsu-server-v0-2suyaxgbnl0g1.webp)
 
 ![Picture 2](../../assets/images/fujitsu-server-v0-bcu07s0bnl0g1.webp)
