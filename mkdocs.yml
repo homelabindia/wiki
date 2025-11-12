@@ -19,6 +19,7 @@ plugins:
   - glightbox
   - search
   - social
+  - blog
   - git-revision-date-localized:
       enable_creation_date: true
 theme:
