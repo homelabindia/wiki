@@ -12,7 +12,7 @@ Verified By: Many
 
 New N100, N150, Mini ITX Motherboards [ 2.5G, 10G ], N150 NVME Mini SSD NAS and more.
 
-[sudobox.in][https://sudobox.in]
+[sudobox.in](https://sudobox.in)
 
 [Product List](https://www.reddit.com/user/FortiCore/comments/1nj9jix/intel_n100_n150_mini_pcs_itx_motherboards_for_nas/)
 
