@@ -1,11 +1,15 @@
 # Routers
 
+## 2.5G Routers
+
+- [Radxa E52C - ₹7k](https://evelta.com/radxa-e52c-mini-network-titan-network-computer/)
+- NanoPi R5S - ₹10k
+
 ## Fab2Lab (OpenWRT)
 
 Recommendation:
 
-- NanoPIs
-- NanoPi R5S - 2.5G router for ₹7,432
+- NanoPIs R2S 1G router - 4k
 
 ## fgtechstore.com (MicroTik)
 
