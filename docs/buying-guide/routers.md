@@ -9,6 +9,7 @@
 
 Recommendation:
 
+- [Dlink M30](https://amzn.in/d/3CmopkZ)
 - NanoPIs R2S 1G router - 4k
 
 ## fgtechstore.com (MicroTik)
