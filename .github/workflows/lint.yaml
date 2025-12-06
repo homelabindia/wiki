@@ -8,10 +8,6 @@ on: # yamllint disable-line rule:truthy - false positive
     branches:
       - main
 
-env:
-  ENABLED_LINTERS:
-    - MARKDOWN_MARKDOWNLINT
-
 concurrency:
   group: ${{ github.ref }}-${{ github.workflow }}
   cancel-in-progress: true
