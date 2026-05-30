@@ -1,5 +1,6 @@
 # Indian Homelab YouTubers
 
-- [https://youtube.com/@techtalkandtechunboxed](https://youtube.com/@techtalkandtechunboxed)
-- [https://youtube.com/@nappinggeek3](https://youtube.com/@nappinggeek3)
+- [GeekyTwins](https://youtube.com/@geekytwins)
+- [TechTalk and Tech Unboxed](https://youtube.com/@techtalkandtechunboxed)
+- [Napping Geek](https://youtube.com/@nappinggeek3)
 - [NaniBot - Kubernetes](https://www.youtube.com/@-NaniBot-)
