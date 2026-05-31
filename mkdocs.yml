@@ -48,3 +48,25 @@ theme:
     toggle:
       icon: material/brightness-4
       name: Switch to system preference
+
+nav:
+  - Home: index.md
+  - Hardware:
+      - Overview: hardware/index.md
+      - Mini PCs: hardware/minipc.md
+      - Routers: hardware/routers.md
+      - Switches: hardware/switches.md
+      - HDDs: hardware/hdd.md
+      - VPS: hardware/vps.md
+  - Software:
+      - Overview: software/index.md
+      - Operating System: software/operating-system.md
+      - RAID and Filesystems: software/raid.md
+      - Networking:
+          - Exposing Homelab: software/networking/exposing.md
+          - Multiple IPv6 Prefixes: software/networking/multiple-ipv6-prefixes.md
+          - Speedtest: software/networking/speedtest.md
+  - Community:
+      - Overview: community-guides/index.md
+      - Indian Homelab YouTubers: community-guides/youtubers.md
+  - Blog: blog/index.md

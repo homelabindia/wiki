@@ -1,4 +1,4 @@
-# Multiple IPv6 /64 Prefixs
+# Multiple IPv6 /64 Prefixes
 
 In India it is currently not possible to get larger than a /64 IPv6 prefix from major ISPs. As an alternative you can request multiple /64s via DHCPv6 and use it in different VLANs.
 
@@ -7,7 +7,7 @@ In India it is currently not possible to get larger than a /64 IPv6 prefix from 
     draft document
 
 Last tested: June 1 2025 with ACT  
-Tested OS: OpenWRT, Microtik
+Tested OS: OpenWRT, MikroTik
 
 ## How it works
 
@@ -18,6 +18,6 @@ Tested OS: OpenWRT, Microtik
 
 OpenWRT:
 
-- YOU NEED TO ENABLE promecusous mode on the macvlan
+- YOU NEED TO ENABLE promiscuous mode on the macvlan
 - It takes 5mins to get an IPv6 prefix
 - Disable source routing and default gateway on all macvlan interfaces

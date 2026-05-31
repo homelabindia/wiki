@@ -23,5 +23,4 @@ We recommend buying SFF pcs because you can add a SFP port later if you need fib
 Upgrading SFF pcs are also a lot easier and don't take up much space.
 For most usecases 2GB Ram and a dual core CPU will do.
 
-Refer to [Mini PC Buying Guide](minipc.md).
-
+Refer to the [Mini PC guide](minipc.md).

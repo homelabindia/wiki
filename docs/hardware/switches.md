@@ -1,11 +1,11 @@
-# Switch
+# Switches
 
 ## 1GbE L2 Managed Switch
 
-This is the **cheapest** l2 managed switch without vulnerabilities.
+This is the **cheapest** L2 managed switch without vulnerabilities.
 TP-Link Smart lineup has a lot of vulnerabilities.
 
-Model: TP-Link Omanda Switch SG3210
+Model: TP-Link Omada Switch SG3210
 
 Buying Links:
 
