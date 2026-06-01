@@ -1,3 +1,7 @@
+---
+icon: 'material/server-outline'
+---
+
 # Mini PCs
 
 ## Aasimenator

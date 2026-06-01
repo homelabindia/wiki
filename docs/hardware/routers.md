@@ -1,3 +1,7 @@
+---
+icon: 'material/router'
+---
+
 # Routers
 
 ## 2.5G Routers

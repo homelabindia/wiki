@@ -1,3 +1,7 @@
+---
+icon: 'material/harddisk'
+---
+
 # Hard Disk Drive
 
 ## Imtiyaz Shaikh

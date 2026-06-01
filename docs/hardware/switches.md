@@ -1,3 +1,7 @@
+---
+icon: 'simple/tplink'
+---
+
 # Switches
 
 ## 1GbE L2 Managed Switch

@@ -1,3 +1,7 @@
+---
+icon: 'material/server-security'
+---
+
 # VPS
 
 We only recommend high uptime VPS and good reliability.

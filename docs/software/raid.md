@@ -1,3 +1,7 @@
+---
+icon: 'material/file-hidden'
+---
+
 # RAID
 
 ## Filesystems

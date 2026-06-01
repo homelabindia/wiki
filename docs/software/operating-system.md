@@ -1,3 +1,7 @@
+---
+icon: 'simple/linux'
+---
+
 # Operating System
 
 ## Ubuntu
