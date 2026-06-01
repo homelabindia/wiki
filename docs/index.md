@@ -3,8 +3,8 @@
 Welcome to the **official** Homelab India Wiki, a mega thread of everything you need to setup a homelab in India.
 Please give it a star on GitHub if you want to support us. We are not affiliated with r/homelabindia.
 
-[Join our Discord](https://discord.gg/E2vXJBkpWr){ .md-button .md-button--primary }
-[Join our Reddit](https://www.reddit.com/r/HomelabIND/){ .md-button }
+[Join our Discord :simple-discord:](https://discord.gg/E2vXJBkpWr){ .md-button .md-button--primary }
+[Join our Reddit :simple-reddit:](https://www.reddit.com/r/HomelabIND/){ .md-button }
 
 ## Contributors
 
