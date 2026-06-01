@@ -59,6 +59,7 @@ nav:
       - Routers: hardware/routers.md
       - Switches: hardware/switches.md
       - HDDs: hardware/hdd.md
+      - SSDs: hardware/ssd.md
       - VPS: hardware/vps.md
   - Software:
       - Operating System: software/operating-system.md
