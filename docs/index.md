@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-<div class="hli-home" markdown>
+<div class="hli-home">
 <section class="hli-hero">
   <div class="hli-hero__content">
     <p class="hli-kicker">Homelab India Wiki</p>
@@ -13,8 +13,8 @@ hide:
       Start with the constraint in front of you, then follow the guides into a working setup.
     </p>
     <ul class="hli-actions">
-      <li><a class="md-button md-button--primary" href="hardware/">Browse hardware</a></li>
-      <li><a class="md-button" href="software/">Plan software</a></li>
+      <li><a class="md-button md-button--primary" href="hardware/minipc/">Browse hardware</a></li>
+      <li><a class="md-button" href="software/operating-system/">Plan software</a></li>
       <li><a class="md-button" href="software/networking/exposing/">Expose services</a></li>
     </ul>
     <ul class="hli-signal">
@@ -49,7 +49,7 @@ hide:
     </p>
   </div>
   <div class="hli-lanes">
-    <a class="hli-lane" href="hardware/">
+    <a class="hli-lane" href="hardware/minipc/">
       <span class="hli-icon" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="6" rx="1"/><rect x="4" y="14" width="16" height="6" rx="1"/><path d="M8 7h.01M8 17h.01M12 7h4M12 17h4"/></svg>
       </span>
@@ -57,7 +57,7 @@ hide:
       <p>Mini PCs, routers, switches, disks, rack servers, and VPS options that make sense in the Indian market.</p>
       <span>Open hardware guides</span>
     </a>
-    <a class="hli-lane" href="software/">
+    <a class="hli-lane" href="software/operating-system/">
       <span class="hli-icon" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 18h8M10 22h4"/><rect x="4" y="3" width="16" height="12" rx="2"/><path d="m9 8 2 2-2 2M13 12h3"/></svg>
       </span>
@@ -73,7 +73,7 @@ hide:
       <p>Expose services, handle IPv6, measure speed, and pick the access pattern that fits your ISP reality.</p>
       <span>Open networking guides</span>
     </a>
-    <a class="hli-lane" href="community-guides/">
+    <a class="hli-lane" href="community-guides/youtubers/">
       <span class="hli-icon" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 11a4 4 0 1 0-8 0"/><path d="M3 21a7 7 0 0 1 18 0"/><path d="M17 4a3 3 0 0 1 2 5M7 4a3 3 0 0 0-2 5"/></svg>
       </span>
