@@ -4,6 +4,50 @@ site_description: Official Homelab India Wiki
 site_url: https://wiki.homelabindia.org
 repo_url: https://github.com/homelabindia/wiki
 repo_name: homelabindia/wiki
+
+theme:
+  name: material
+  custom_dir: overrides
+  icon:
+    logo: material/server
+    repo: fontawesome/brands/github
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+    - announce.dismiss
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light/dark mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: blue grey
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: blue grey
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+extra_css:
+  - stylesheets/extra.css
+
 markdown_extensions:
   - attr_list
   - md_in_html
@@ -15,58 +59,72 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
+  - toc:
+      permalink: true
+
 plugins:
   - glightbox
   - search
   - social
   - blog
+  - tags
   - git-revision-date-localized:
       enable_creation_date: true
-theme:
-  name: material
-  features:
-    - navigation.indexes
-    - content.code.copy
-  palette:
-  - media: "(prefers-color-scheme)"
-    toggle:
-      icon: material/brightness-auto
-      name: Switch to light mode
 
-  # Palette toggle for light mode
-  - media: "(prefers-color-scheme: light)"
-    scheme: default 
+extra:
+  social:
+    - icon: fontawesome/brands/reddit
+      link: https://www.reddit.com/r/HomelabIND/
+      name: Homelab India on Reddit
+    - icon: fontawesome/brands/github
+      link: https://github.com/homelabindia/wiki
+      name: Homelab India Wiki on GitHub
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@geekytwins
+      name: Homelab India YouTube
+  tags:
+    Hardware: hardware
+    Software: software
+    Networking: networking
+    Community: community
 
-
-    toggle:
-      icon: material/brightness-7
-      name: Switch to dark mode
-
-  # Palette toggle for dark mode
-  - media: "(prefers-color-scheme: dark)"
-    scheme: slate
-    toggle:
-      icon: material/brightness-4
-      name: Switch to system preference
+copyright: Copyright &copy; 2026 Homelab India
 
 nav:
   - Home: index.md
   - Hardware:
-      - Overview: hardware/index.md
-      - Mini PCs: hardware/minipc.md
-      - Routers: hardware/routers.md
-      - Switches: hardware/switches.md
-      - HDDs: hardware/hdd.md
-      - VPS: hardware/vps.md
+    - Overview: hardware/index.md
+    - Mini PCs: hardware/minipc.md
+    - Routers: hardware/routers.md
+    - Switches: hardware/switches.md
+    - HDDs: hardware/hdd.md
+    - VPS: hardware/vps.md
   - Software:
-      - Overview: software/index.md
-      - Operating System: software/operating-system.md
-      - RAID and Filesystems: software/raid.md
-      - Networking:
-          - Exposing Homelab: software/networking/exposing.md
-          - Multiple IPv6 Prefixes: software/networking/multiple-ipv6-prefixes.md
-          - Speedtest: software/networking/speedtest.md
+    - Overview: software/index.md
+    - Operating System: software/operating-system.md
+    - RAID and Filesystems: software/raid.md
+    - Networking:
+      - Overview: software/networking/index.md
+      - Exposing Homelab: software/networking/exposing.md
+      - Multiple IPv6 Prefixes: software/networking/multiple-ipv6-prefixes.md
+      - Speedtest: software/networking/speedtest.md
   - Community:
-      - Overview: community-guides/index.md
-      - Indian Homelab YouTubers: community-guides/youtubers.md
+    - Overview: community-guides/index.md
+    - Indian Homelab YouTubers: community-guides/youtubers.md
   - Blog: blog/index.md

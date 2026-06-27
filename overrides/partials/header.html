@@ -1,0 +1,52 @@
+{% set class = "md-header" %}
+{% if "navigation.tabs.sticky" in features %}
+  {% set class = class ~ " md-header--shadow md-header--lifted" %}
+{% elif "navigation.tabs" not in features %}
+  {% set class = class ~ " md-header--shadow" %}
+{% endif %}
+<header class="{{ class }}" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="{{ lang.t('header') }}">
+    <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" title="{{ config.site_name | e }}" class="md-header__button md-logo" aria-label="{{ config.site_name }}">
+      {% include "partials/logo.html" %}
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      {% set icon = config.theme.icon.menu or "material/menu" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">{{ config.site_name }}</span>
+        </div>
+      </div>
+    </div>
+    <div class="md-header__nav" data-md-component="nav">
+      <nav class="md-header__links" aria-label="{{ lang.t('nav') }}">
+        {% for nav_item in nav %}
+          {% if not nav_item.children %}
+            <a href="{{ nav_item.url | url }}" class="md-header__link{% if nav_item.active %} md-header__link--active{% endif %}">
+              {{ nav_item.title }}
+            </a>
+          {% else %}
+            <div class="md-header__dropdown">
+              <a href="{{ nav_item.children[0].url | url }}" class="md-header__link{% if nav_item.active %} md-header__link--active{% endif %}">
+                {{ nav_item.title }}
+              </a>
+              <div class="md-header__dropdown-content">
+                {% for child in nav_item.children %}
+                  <a href="{{ child.url | url }}">{{ child.title }}</a>
+                {% endfor %}
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </nav>
+    </div>
+    <div class="md-header__source">
+      {% include "partials/search.html" %}
+      {% if config.theme.palette %}
+        {% include "partials/palette.html" %}
+      {% endif %}
+    </div>
+  </nav>
+</header>
