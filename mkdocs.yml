@@ -29,6 +29,7 @@ plugins:
       enable_creation_date: true
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/brand/homelab-india-mark.svg
   favicon: assets/brand/homelab-india-mark.svg
   font:
