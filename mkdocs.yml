@@ -4,6 +4,8 @@ site_description: Official Homelab India Wiki
 site_url: https://wiki.homelabindia.org
 repo_url: https://github.com/homelabindia/wiki
 repo_name: homelabindia/wiki
+extra_css:
+  - stylesheets/extra.css
 markdown_extensions:
   - attr_list
   - md_in_html
@@ -27,8 +29,20 @@ plugins:
       enable_creation_date: true
 theme:
   name: material
+  logo: assets/brand/homelab-india-mark.svg
+  favicon: assets/brand/homelab-india-mark.svg
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+  icon:
+    repo: fontawesome/brands/github
   features:
+    - navigation.tabs
+    - navigation.sections
     - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.suggest
     - content.code.copy
   palette:
   - media: "(prefers-color-scheme)"
@@ -39,8 +53,8 @@ theme:
   # Palette toggle for light mode
   - media: "(prefers-color-scheme: light)"
     scheme: default
-
-
+    primary: white
+    accent: indigo
     toggle:
       icon: material/brightness-7
       name: Switch to dark mode
@@ -48,6 +62,8 @@ theme:
   # Palette toggle for dark mode
   - media: "(prefers-color-scheme: dark)"
     scheme: slate
+    primary: black
+    accent: amber
     toggle:
       icon: material/brightness-4
       name: Switch to system preference
