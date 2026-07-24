@@ -84,57 +84,6 @@ hide:
   </div>
 </section>
 
-<section class="hli-feature">
-  <div class="hli-feature__inner">
-    <div class="hli-section-head">
-      <h2>Built for Indian homelab constraints.</h2>
-      <p>
-        Global guides are useful, but a working home lab depends on local availability,
-        last-mile connectivity, electricity, space, and service exposure choices.
-      </p>
-    </div>
-    <div class="hli-checks">
-      <div class="hli-check">
-        <strong>Start from what is easy to source.</strong>
-        <span>Mini PCs, refurbished enterprise hardware, routers, and disks are covered with practical tradeoffs.</span>
-      </div>
-      <div class="hli-check">
-        <strong>Make networking decisions explicit.</strong>
-        <span>Cloudflare Tunnels, VPNs, port forwarding, IPv6, and speed testing sit together instead of being scattered.</span>
-      </div>
-      <div class="hli-check">
-        <strong>Keep the setup maintainable.</strong>
-        <span>The software section favors repeatable systems, clear storage choices, and boring recovery paths.</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="hli-band">
-  <div class="hli-section-head">
-    <h2>Useful starting points.</h2>
-    <p>Jump into the pages that usually unblock a new build fastest.</p>
-  </div>
-  <div class="hli-map">
-    <div>
-      <strong>01</strong>
-      <span><a href="hardware/minipc/">Compare mini PCs</a> before buying the first always-on machine.</span>
-    </div>
-    <div>
-      <strong>02</strong>
-      <span><a href="software/operating-system/">Pick an operating system</a> around how much maintenance you want.</span>
-    </div>
-    <div>
-      <strong>03</strong>
-      <span><a href="software/raid/">Plan storage</a> before a disk failure makes the lesson expensive.</span>
-    </div>
-    <div>
-      <strong>04</strong>
-      <span><a href="software/networking/multiple-ipv6-prefixes/">Handle IPv6 prefixes</a> when your network grows up.</span>
-    </div>
-  </div>
-</section>
-
 <section class="hli-community">
   <div class="hli-community__inner">
     <div class="hli-section-head">

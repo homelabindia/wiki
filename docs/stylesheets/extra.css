@@ -10,7 +10,6 @@
   --hli-hero-soft: #ffe8b6;
   --hli-blue: #4263eb;
   --hli-green: #2f7d6b;
-  --hli-red: #bd3d3a;
   --hli-shadow: 0 1px 2px rgba(20, 24, 33, 0.07), 0 8px 28px rgba(20, 24, 33, 0.08);
   --md-default-bg-color: var(--hli-bg);
   --md-primary-fg-color: var(--hli-surface);
@@ -30,7 +29,6 @@
   --hli-hero-soft: #2c3340;
   --hli-blue: #8ea2ff;
   --hli-green: #80cbb8;
-  --hli-red: #ff8982;
   --hli-shadow: none;
   --md-default-bg-color: var(--hli-bg);
   --md-primary-fg-color: #111318;
@@ -345,7 +343,6 @@ body {
 }
 
 .hli-band,
-.hli-feature,
 .hli-community {
   padding: clamp(2.6rem, 6vw, 5rem) clamp(1rem, 5vw, 4rem);
 }
@@ -444,85 +441,6 @@ body {
   color: #ffcf70;
 }
 
-.hli-feature {
-  background: var(--hli-surface);
-  border-block: 1px solid var(--hli-border);
-}
-
-.hli-feature__inner {
-  display: grid;
-  gap: clamp(1rem, 4vw, 3rem);
-  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
-  margin: 0 auto;
-  max-width: 72rem;
-}
-
-.hli-checks {
-  display: grid;
-  gap: 0.7rem;
-}
-
-.hli-check {
-  border-left: 4px solid var(--hli-green);
-  padding: 0.1rem 0 0.1rem 0.85rem;
-}
-
-.hli-check:nth-child(2) {
-  border-color: var(--hli-blue);
-}
-
-.hli-check:nth-child(3) {
-  border-color: var(--hli-red);
-}
-
-.hli-check strong {
-  color: var(--hli-ink);
-  display: block;
-}
-
-.hli-check span {
-  color: var(--hli-muted);
-  display: block;
-  font-size: 0.78rem;
-  line-height: 1.5;
-  margin-top: 0.25rem;
-}
-
-.hli-map {
-  background:
-    linear-gradient(135deg, rgba(66, 99, 235, 0.12), transparent 42%),
-    linear-gradient(315deg, rgba(47, 125, 107, 0.14), transparent 44%),
-    var(--hli-bg);
-  border: 1px solid var(--hli-border);
-  border-radius: 8px;
-  display: grid;
-  gap: 0.75rem;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  padding: 1rem;
-}
-
-.hli-map div {
-  background: var(--hli-surface);
-  border: 1px solid var(--hli-border);
-  border-radius: 6px;
-  min-height: 7rem;
-  padding: 0.8rem;
-}
-
-.hli-map strong {
-  display: block;
-  font-size: 1.6rem;
-  line-height: 1;
-}
-
-.hli-map span {
-  color: var(--hli-muted);
-  display: block;
-  font-size: 0.72rem;
-  line-height: 1.45;
-  margin-top: 0.45rem;
-}
-
 .hli-community {
   background: var(--hli-bg);
 }
@@ -551,7 +469,6 @@ body {
 
 @media screen and (max-width: 62rem) {
   .hli-lanes,
-  .hli-feature__inner,
   .hli-community__inner {
     grid-template-columns: 1fr;
   }
@@ -596,8 +513,7 @@ body {
     height: 9rem;
   }
 
-  .hli-lanes,
-  .hli-map {
+  .hli-lanes {
     grid-template-columns: 1fr;
   }
 }
