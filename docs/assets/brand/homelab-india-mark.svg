@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Homelab India mark</title>
+  <desc id="desc">A server rack with a routed signal line.</desc>
+  <rect width="96" height="96" rx="18" fill="#ffcf70"/>
+  <path fill="#202124" d="M24 20h48a6 6 0 0 1 6 6v44a6 6 0 0 1-6 6H24a6 6 0 0 1-6-6V26a6 6 0 0 1 6-6Zm2 12v10h44V32H26Zm0 17v10h44V49H26Zm0 17v2h44v-2H26Z"/>
+  <path fill="#fff" d="M32 35h18v4H32zm0 17h18v4H32z"/>
+  <circle cx="61" cy="37" r="3" fill="#2f7d6b"/>
+  <circle cx="61" cy="54" r="3" fill="#4263eb"/>
+  <path fill="none" stroke="#4263eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M48 76v8m0-8c-12 0-21-7-21-18m21 18c12 0 21-7 21-18"/>
+</svg>
