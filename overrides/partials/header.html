@@ -66,17 +66,18 @@
     {% if "material/search" in config.plugins %}
       {% set search = config.plugins["material/search"] | attr("config") %}
       {% if search.enabled %}
-        <label class="md-header__button md-icon" for="__search">
+        <button class="md-header__button md-icon hli-search-toggle" type="button" aria-label="{{ lang.t('search') }}" aria-expanded="false" data-hli-search-toggle>
           {% set icon = config.theme.icon.search or "material/magnify" %}
           {% include ".icons/" ~ icon ~ ".svg" %}
-        </label>
+        </button>
         {% include "partials/search.html" %}
       {% endif %}
     {% endif %}
     {% if config.repo_url %}
-      <div class="md-header__source">
-        {% include "partials/source.html" %}
-      </div>
+      <a href="{{ config.repo_url }}" class="md-header__button md-icon hli-github-link" title="{{ config.repo_name }}" aria-label="{{ config.repo_name }}">
+        {% set icon = config.theme.icon.repo or "fontawesome/brands/git-alt" %}
+        {% include ".icons/" ~ icon ~ ".svg" %}
+      </a>
     {% endif %}
   </nav>
 </header>

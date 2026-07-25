@@ -6,6 +6,8 @@ repo_url: https://github.com/homelabindia/wiki
 repo_name: homelabindia/wiki
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - javascripts/header-search.js
 markdown_extensions:
   - attr_list
   - md_in_html

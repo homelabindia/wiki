@@ -178,6 +178,17 @@ pre {
   color: var(--hli-muted);
 }
 
+.hli-search-toggle,
+.hli-github-link {
+  flex: 0 0 auto;
+}
+
+.hli-search-toggle[aria-expanded="true"],
+.hli-github-link:focus,
+.hli-github-link:hover {
+  color: var(--hli-accent);
+}
+
 @supports ((-webkit-backdrop-filter: blur(12px)) or (backdrop-filter: blur(12px))) {
   .md-header {
     -webkit-backdrop-filter: blur(12px);
@@ -837,6 +848,51 @@ pre {
   }
 }
 
+@media screen and (min-width: 60rem) {
+  .md-header .md-search {
+    opacity: 0;
+    pointer-events: none;
+    transition:
+      opacity 140ms ease,
+      visibility 140ms ease,
+      width 180ms ease;
+    visibility: hidden;
+    width: 0;
+  }
+
+  #__search:checked ~ .md-header .md-search,
+  .md-header .md-search:focus-within {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    width: 9rem;
+  }
+
+  #__search:checked ~ .md-header .md-search__overlay {
+    display: none;
+  }
+
+  #__search:checked ~ .md-header .md-search__inner,
+  #__search:checked ~ .md-header .md-search__form,
+  #__search:checked ~ .md-header .md-search__input {
+    width: 100%;
+  }
+
+  #__search:checked ~ .md-header .md-search__output {
+    left: auto;
+    right: 0;
+    width: 18rem;
+  }
+
+  #__search:checked ~ .md-header .md-search__inner:not(:has(.md-search__input:valid)) .md-search__output {
+    display: none;
+  }
+
+  #__search:checked ~ .md-header .hli-search-toggle {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 62rem) {
   .hli-lanes,
   .hli-community__inner {
@@ -891,6 +947,10 @@ pre {
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+
+  .md-header .md-search {
+    transition: none;
   }
 
   .hli-lane {
