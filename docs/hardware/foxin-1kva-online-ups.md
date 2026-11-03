@@ -1,5 +1,7 @@
 # Foxin 1kVA Online UPS Review and NUT Graceful Shutdown Guide
 
+*By techno*
+
 I bought the Foxin 1kVA online UPS in May 2026 for **₹14,400 after Amazon discounts**. The main reason was to keep workstation and networking equipment running through power cuts. Some of that equipment could restart during the changeover on a home inverter.
 
 The UPS handled those transitions well. It also turned out to support Network UPS Tools (NUT) over USB, making it useful for monitoring and automatic shutdown of Linux and Proxmox systems.
