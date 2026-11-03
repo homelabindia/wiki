@@ -61,6 +61,7 @@ nav:
       - HDDs: hardware/hdd.md
       - SSDs: hardware/ssd.md
       - VPS: hardware/vps.md
+      - Foxin Online UPS: hardware/foxin-1kva-online-ups.md
   - Software:
       - Operating System: software/operating-system.md
       - RAID and Filesystems: software/raid.md
