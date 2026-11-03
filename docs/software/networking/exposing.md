@@ -93,6 +93,12 @@ Cons:
 - Bandwidth could be limited.
 - Additional cost and management of VPS.
 
+### Pangolin behind CGNAT
+
+Pangolin can connect applications behind CGNAT to a gateway on a VPS with a public IP. Public HTTP/HTTPS resources can be opened in a browser and protected with Pangolin authentication; private resources are accessed through authorised Pangolin clients. Exposing selected resources does not require routing the home's general internet browsing through the VPS.
+
+For an explanation based on a working homelab, OCI Always Free and discounted India-hosted VPS options, and links to the official setup guides, see [Accessing your homelab behind CGNAT with Pangolin](pangolin-cgnat.md).
+
 ## Commercial VPNs
 
 Supports: Everything
@@ -113,3 +119,4 @@ Cons:
 
 Rare in India but if your router gets a public IP, you can just use DDNS. Of course this has the same 5mins DNS update
 time disadvantage of IPv6 DDNS.
+

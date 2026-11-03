@@ -66,6 +66,7 @@ nav:
       - RAID and Filesystems: software/raid.md
       - Networking:
           - Exposing Homelab: software/networking/exposing.md
+          - Pangolin behind CGNAT: software/networking/pangolin-cgnat.md
           - Multiple IPv6 Prefixes: software/networking/multiple-ipv6-prefixes.md
           - Speedtest: software/networking/speedtest.md
   - Community:
