@@ -61,6 +61,7 @@ nav:
       - HDDs: hardware/hdd.md
       - SSDs: hardware/ssd.md
       - VPS: hardware/vps.md
+      - UPS: hardware/ups.md
   - Software:
       - Operating System: software/operating-system.md
       - RAID and Filesystems: software/raid.md
@@ -71,3 +72,4 @@ nav:
   - Community:
       - Indian Homelab YouTubers: community-guides/youtubers.md
   - Blog: blog/index.md
+
