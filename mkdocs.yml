@@ -65,12 +65,9 @@ nav:
       - Operating System: software/operating-system.md
       - RAID and Filesystems: software/raid.md
       - Networking:
-          - Exposing Homelab:
-              - Overview: software/networking/exposing.md
-              - Pangolin behind CGNAT: software/networking/pangolin-cgnat.md
+          - Exposing Homelab: software/networking/exposing.md
           - Multiple IPv6 Prefixes: software/networking/multiple-ipv6-prefixes.md
           - Speedtest: software/networking/speedtest.md
   - Community:
       - Indian Homelab YouTubers: community-guides/youtubers.md
   - Blog: blog/index.md
-
