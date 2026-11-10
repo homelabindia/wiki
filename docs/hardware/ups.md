@@ -1,8 +1,12 @@
+---
+icon: 'material/battery-charging'
+---
+
 # UPS
 
 Reviews and practical setup guides for UPS units used in home labs.
 
-## Foxin 1kVA Online UPS Review and NUT Graceful Shutdown Guide
+## Foxin 1kVA Online UPS
 
 *By techno*
 
