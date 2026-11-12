@@ -58,6 +58,7 @@ nav:
       - Mini PCs: hardware/minipc.md
       - Routers: hardware/routers.md
       - Switches: hardware/switches.md
+      - SFP and DAC: hardware/sfp-dac.md
       - HDDs: hardware/hdd.md
       - SSDs: hardware/ssd.md
       - VPS: hardware/vps.md
